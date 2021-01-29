@@ -15,3 +15,13 @@ def recrusionSum(arr):
 
 
 print(recrusionSum(arr))
+
+
+# standard answer for author:
+'''def sum(list):
+    if list == []:
+        return 0
+    return list[0] + sum(list[1:])
+
+
+print(sum(arr))'''
