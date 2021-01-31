@@ -1,0 +1,6 @@
+# pseudocode
+
+if word_a[i] == word_b[j]:  # the letters from word a and word b match
+    cell[i][j] = cell[i-1][j-1] + 1
+else:
+    cell[i][j] = 0
